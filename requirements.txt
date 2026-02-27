@@ -1,0 +1,8 @@
+open3d
+numpy
+opencv-python
+matplotlib
+tqdm
+scipy
+scikit-image
+numba
