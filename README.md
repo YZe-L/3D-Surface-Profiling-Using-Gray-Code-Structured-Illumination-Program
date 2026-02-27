@@ -6,16 +6,6 @@ A Python-based structured light 3D scanning system using Grey-code pattern proje
 
 This system reconstructs 3D surface geometry by projecting a sequence of Grey-code binary patterns from a calibrated projector onto a target object, capturing the deformed patterns with a calibrated camera, and recovering depth through stereo triangulation. The pipeline includes Nayar's direct/global illumination separation for robust decoding under inter-reflections and specular highlights.
 
-**Key performance (on white diffuse surfaces at 1204 mm working distance):**
-
-| Metric | Value |
-|--------|-------|
-| Depth noise floor (σ_Z) | 0.28 mm |
-| Depth resolution (1σ) | ~0.5 mm |
-| Lateral resolution | 1.8 mm |
-| Usable depth of field | 125 ± 12 mm |
-| Mean reprojection error | 0.72 px |
-
 ## System Requirements
 
 ### Hardware
